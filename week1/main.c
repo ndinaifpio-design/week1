@@ -6,13 +6,13 @@ int main(){
 
     printf("Welcome to Windhoek Municipality\n\n");
 
-    printf("Enter the name of the municipality: "); 
+    printf("Enter the name of the municipality: \n"); 
     scanf(" %49[^\n]", municipality);
 
-    printf("Enter the name of the mayor: ");
+    printf("Enter the name of the mayor: \n");
     scanf(" %49[^\n]", mayor); 
 
-    printf("Enter the population: ");
+    printf("Enter the population: \n");
     scanf("%d", &population);
 
     printf("municipality: %s\n", municipality);
